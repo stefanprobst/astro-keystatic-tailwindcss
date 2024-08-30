@@ -1,0 +1,38 @@
+{
+	"name": "astro-keystatic-tailwindcss",
+	"private": true,
+	"type": "module",
+	"packageManager": "pnpm@9.9.0",
+	"scripts": {
+		"build": "astro build",
+		"dev": "astro dev",
+		"format": "prettier . --cache --cache-location ./.prettiercache --ignore-path ./.gitignore --write",
+		"start": "astro preview",
+		"types:check": "astro check"
+	},
+	"dependencies": {
+		"@astrojs/node": "^8.3.3",
+		"@astrojs/react": "^3.6.2",
+		"@keystatic/astro": "^5.0.0",
+		"@keystatic/core": "^0.5.32",
+		"astro": "^4.15.1",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@astrojs/check": "^0.9.3",
+		"@types/node": "^20.16.2",
+		"@types/react": "^18.3.4",
+		"@types/react-dom": "^18.3.0",
+		"postcss": "^8.4.41",
+		"prettier": "^3.3.3",
+		"prettier-plugin-astro": "^0.14.1",
+		"tailwindcss": "^3.4.10",
+		"typescript": "^5.5.4"
+	},
+	"postcss": {
+		"plugins": {
+			"tailwindcss": {}
+		}
+	}
+}
